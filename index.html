@@ -9,7 +9,53 @@
 </head>
 
 <body>
+    <div class="wrapper">
+        <table class="basicTable">
+            <tr>
+                <td>
+                    <!-- CRUD Operations -->
+                    <form action="">
+                        <div>
+                            <label>Organization</label>
+                            <input type="text" name="organization" id="client">
+                        </div>
+                        <div>
+                            <label>Adress</label>
+                            <input type="text" name="adress" id="adress">
+                        </div>
+                        <div>
+                            <label>Phone Number</label>
+                            <input type="text" name="phoneNumber" id="phone">
+                        </div>
+                        <div>
+                            <label>Name</label>
+                            <input type="text" name="name" id="Name">
+                        </div>
+                        <div>
+                            <label>Info</label>
+                            <input type="text" name="info" id="info">
+                        </div>
+                        <div class="form-action-btn">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <!-- Result Table -->
+                    <table class="list" id="clientList">
+                        <th>
+                            <td>Organization</td>
+                            <td>Adress</td>
+                            <td>Phone Number</td>
+                            <td>Name</td>
+                            <td>Info</td>
+                        </th>
+                    </table>
+                </td>
 
+            </tr>
+        </table>
+    </div>
     <script src="index.js"></script>
 </body>
 
